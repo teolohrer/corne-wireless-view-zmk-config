@@ -46,9 +46,9 @@
 
             display-name = "Lower";
             bindings = <
-&kp LC(LG(Q))  &kp N1      &kp N2      &kp N3    &kp N4  &kp N5       &kp N6      &kp N7             &kp N8           &kp N9          &kp N0                &kp BSPC
+&kp LC(LG(Q))  &kp F1      &kp F2      &kp F3    &kp F4  &kp F5       &kp F6      &kp F7             &kp F8           &kp F9          &kp F10               &kp BSPC
 &bt BT_CLR     &bt BT_PRV  &bt BT_NXT  &trans    &trans  &trans       &kp LEFT    &kp DOWN           &kp UP           &kp RIGHT       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-&kp LSHFT      &trans      &trans      &trans    &trans  &trans       &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PREVIOUS  &kp K_NEXT            &kp K_PLAY_PAUSE
+&kp LSHFT      &trans      &trans      &trans    &trans  &trans       &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_NEXT            &kp C_PLAY_PAUSE
                                        &kp LGUI  &trans  &kp SPACE    &kp RET     &trans             &kp RALT
             >;
         };
@@ -71,10 +71,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp FSLH  &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp STAR  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp N1  &kp N2  &kp N3  &kp DOT    &kp RET
-                        &trans  &trans  &trans    &trans    &trans  &kp N0
+&soft_off  &trans  &trans  &trans  &trans  &trans    &kp FSLH  &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp STAR  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans    &kp N1  &kp N2  &kp N3  &kp DOT    &kp RET
+                           &trans  &trans  &trans    &trans    &trans  &kp N0
             >;
         };
     };
