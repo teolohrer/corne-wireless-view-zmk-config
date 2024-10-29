@@ -21,13 +21,20 @@
             bindings = <&lock_and_sleep>;
             key-positions = <12 0>;
         };
+
+        clear_bt {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <14 13>;
+            layers = <1>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     macros {
         lock_and_sleep: lock_and_sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LG(Q))>, <&macro_wait_time 1000>, <&soft_off>;
+            bindings = <&kp LC(LG(Q))>, <&macro_wait_time 1000>;
 
             label = "LOCK_AND_SLEEP";
         };
